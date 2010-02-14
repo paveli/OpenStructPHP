@@ -1,0 +1,27 @@
+/**
+ * Общие свойства
+ */
+body {font-family: arial; background-color: white;}
+a {text-decoration: none; color: blue;}
+a:hover {text-decoration: underline;}
+
+/**
+ * Таблица результатов временного теста
+ */
+.timetest,
+.timetest table {margin: 0; padding: 0;}
+.timetest th,
+.timetest td {margin: 0; padding: 1px 4px; text-align: right;}
+
+/**
+ * Шаблон first постраничной навигации
+ */
+.pagination-first span {margin: 0 3px;}
+.pagination-first .current {font-weight: bold;}
+
+/**
+ * Стиль для captcha
+ */
+.captcha {position: relative;}
+.captcha div {position: absolute; bottom: 0; right: 0; cursor: pointer;}
+.captcha div span {color: navy; font-weight: bold; font-size: 9px;}
