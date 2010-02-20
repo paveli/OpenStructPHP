@@ -2,7 +2,7 @@ OpenStruct – PHP framework for rapid web-development.
 
 Openstruct structures the code based on MVC pattern and lets developers concentrate on application logic. While remains lightweight it allows to expand its functionality with different libraries and classes (including these from Zend Framework).
 
-Key features of OpenStruct? framework:
+Key features of OpenStruct framework:
 
     * MVC pattern (with power of Smarty for creating view components)
     * Multilingual architecture support
