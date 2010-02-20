@@ -44,7 +44,7 @@ class Open_Smarty extends Smarty
 
 		$this->debugging = false;
 		$this->compile_check = DEBUG;
-		$this->caching = 2; //(DEBUG ? false : 2);
+		$this->caching = (DEBUG ? false : 2);
 
 		/**
 		 * Модификаторы применяемые неявно ко всем переменным внутри шаблонов

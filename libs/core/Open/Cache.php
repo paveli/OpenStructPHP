@@ -26,7 +26,7 @@ class Open_Cache extends Open_Singleton implements Open_Storage_Interface
 	 * Флаг включения кеша
 	 * Если DEBUG включен, кеш выключен и наоборот
 	 */
-	const ENABLED = true;//DEBUG_NEGATIVE;
+	const ENABLED = DEBUG_NEGATIVE;
 
 	/**
 	 * Перечисление доступных движков кеширования
